@@ -83,7 +83,7 @@ const Blog = () => {
             {articles.map((article) => (
               <Link
                 key={article.slug}
-                to={`/articles/${article.slug}`}
+                to={`/cyber-blog/articles/${article.slug}`}
                 className="group grid md:grid-cols-[180px_1fr_auto] gap-4 md:gap-8 items-center px-4 py-8 border-b border-white/5 rounded-lg hover:bg-white/[0.02] transition-all"
               >
                 <span className="text-xs font-mono text-slate-600">
@@ -134,7 +134,7 @@ const Blog = () => {
 
 const ArticleCard = ({ article, featured }) => (
   <Link
-    to={`/articles/${article.slug}`}
+    to={`/cyber-blog/articles/${article.slug}`}
     className={`group block p-7 border rounded-2xl transition-all hover:translate-y-[-4px] ${
       featured
         ? 'bg-cyan-500/[0.03] border-cyan-500/20 md:col-span-2'

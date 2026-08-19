@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Blog />} />
-        <Route path="/articles/:slug" element={<BlogArticle />} />
+        <Route path="cyber-blog/articles/:slug" element={<BlogArticle />} />
         <Route path="*" element={<Blog />} />
       </Routes>
     </BrowserRouter>
