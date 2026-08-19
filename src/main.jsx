@@ -7,10 +7,10 @@ import BlogArticle from './BlogArticle.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/cyber-blog">
       <Routes>
         <Route path="/" element={<Blog />} />
-        <Route path="cyber-blog/articles/:slug" element={<BlogArticle />} />
+        <Route path="/articles/:slug" element={<BlogArticle />} />
         <Route path="*" element={<Blog />} />
       </Routes>
     </BrowserRouter>
