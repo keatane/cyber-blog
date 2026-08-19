@@ -40,7 +40,7 @@ Where should I start, concretely, if I want to have prevention queries generated
 What topics should I address?
 What techniques should I try to detect?
 
-A well-established starting point is MITRE ATT&CK. However, in practice, the need often emerges for more specific detections, tailored to one's own infrastructure and capable of identifying aspects that standard detection engines may overlook.
+A well-established starting point is **MITRE ATT&CK**. However, in practice, the need often emerges for more specific detections, tailored to one's own infrastructure and capable of identifying aspects that standard detection engines may overlook.
 
 It is from this need that the idea of collecting and exploring some of the main phishing and social engineering techniques with a detection-oriented approach was born, translating each topic into concrete queries for identifying suspicious activity.
 With this in mind, I decided to create a more specific list of Custom Detection Rules that can highlight aspects often overlooked by some detection engines.
@@ -48,26 +48,3 @@ With this in mind, I decided to create a more specific list of Custom Detection 
 > Collection of queries available at this [LINK](https://github.com/keatane/soc-queries/blob/main/social-engineering.kql).  
 
 **#CyberSecurity #Phishing #InformationSecurity #CyberThreats #ThreatDetection #SOC #IncidentResponse #SocialEngineering #MITREATTACK #AI**
-
------------------- POST
-
-**Phishing is not just a user problem.**
-
-Is the employee to blame when they fall victim to phishing? **Yes.**
-Are they solely responsible? **No.**
-
-Prevention cannot be limited to *“report everything to the IT department”*. Awareness, training, detection, and retrospective analysis must be part of the same strategy.
-
-AI is making social engineering increasingly effective, but it can also be used **in favor of defense**: from training to generating queries for identifying suspicious activity.
-
-The question therefore becomes: **where do we start? What should we look for? Which techniques should we detect?**
-
-MITRE ATT&CK is an excellent reference point, but it is often not enough. We need to go down to a more concrete level and build detections **specific to our own infrastructure**.
-
-This need led to the creation of a collection of **Custom Detection Rules** dedicated to phishing and social engineering, with a detection-oriented approach.
-
-I collected the main techniques and translated them into **concrete queries for identifying suspicious activity**.
-
-> > Full article and collection available here: <LINK>
-
-**#CyberSecurity #Phishing #ThreatDetection #SOC #IncidentResponse #SocialEngineering #MITREATTACK #AI**
