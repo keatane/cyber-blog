@@ -29,12 +29,19 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen bg-[#050505] text-slate-300 font-sans selection:bg-cyan-500/30">
-      <section className="relative px-6 pt-32 pb-24 lg:px-24 overflow-hidden">
+      <section className="relative px-6 pt-16 pb-24 lg:px-24 overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-900/10 blur-[120px] rounded-full -z-10" />
 
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.2em] text-cyan-500 mb-6">
-            <span>By Kevin Cattaneo</span>
+            <a
+              href={"https://keatane.github.io"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white hover:scale-110 transition-all"
+            >
+              <span>By Kevin Cattaneo</span>
+            </a>
             <span className="text-slate-600">|</span>
             <span>articles & research</span>
           </div>
@@ -49,7 +56,7 @@ const Blog = () => {
         </div>
       </section>
 
-      <section className="px-6 py-24 bg-white/[0.01] border-y border-white/5">
+      <section className="px-6 py-16 bg-white/[0.01] border-y border-white/5">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-mono text-cyan-500 mb-12 uppercase tracking-widest">
             Latest Article
@@ -73,7 +80,7 @@ const Blog = () => {
         </div>
       </section>
 
-      <section className="px-6 py-24">
+      <section className="px-6 py-16">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-mono text-cyan-500 mb-12 uppercase tracking-widest">
             All Articles
@@ -135,11 +142,10 @@ const Blog = () => {
 const ArticleCard = ({ article, featured }) => (
   <Link
     to={`/articles/${article.slug}`}
-    className={`group block p-7 border rounded-2xl transition-all hover:translate-y-[-4px] ${
-      featured
-        ? 'bg-cyan-500/[0.03] border-cyan-500/20 md:col-span-2'
-        : 'bg-black/40 border-white/10 hover:border-cyan-500/40'
-    }`}
+    className={`group block p-7 border rounded-2xl transition-all hover:translate-y-[-4px] ${featured
+      ? 'bg-cyan-500/[0.03] border-cyan-500/20 md:col-span-2'
+      : 'bg-black/40 border-white/10 hover:border-cyan-500/40'
+      }`}
   >
     <div className="flex items-center justify-between mb-5">
       <span className="text-[10px] font-mono text-cyan-500 uppercase tracking-widest">
@@ -153,9 +159,8 @@ const ArticleCard = ({ article, featured }) => (
     </div>
 
     <h3
-      className={`font-serif text-white group-hover:text-cyan-400 transition-colors ${
-        featured ? 'text-3xl md:text-4xl' : 'text-2xl'
-      }`}
+      className={`font-serif text-white group-hover:text-cyan-400 transition-colors ${featured ? 'text-3xl md:text-4xl' : 'text-2xl'
+        }`}
     >
       {article.title}
     </h3>

@@ -67,7 +67,7 @@ const BlogArticle = () => {
               {formatDate(article.date)}
             </p>
 
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-[0.95]">
+            <h1 className="text-4xl leading-[1.15] md:text-5xl md:leading-[0.95] font-serif font-bold text-white tracking-tight">
               {article.title}
             </h1>
 
