@@ -2,7 +2,6 @@
 title: Phishing & Social-Engineering Detection: Beyond Standard Engines
 date: 2026-08-19
 short: From phishing to detection: exploring key social engineering techniques and turning them into practical detection rules for the gaps left by standard detection engines.
-
 ---
 
 **Phishing.**
@@ -32,8 +31,7 @@ But AI is not a tool available exclusively to attackers.
 
 It can also be used to **strengthen prevention**, addressing all the key points mentioned above: from writing awareness campaigns to generating queries useful for detecting potentially suspicious e-mails, all the way to supporting training activities.
 
-All of this can be just one prompt and one click away.
-
+All of this can be just one prompt and one click away.  
 The only element that may be missing is the foundation.
 
 Where should I start, concretely, if I want to have prevention queries generated for me?
