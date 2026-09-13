@@ -17,7 +17,7 @@ There is also **group-based hacking**, which can lead to larger and, consequentl
 And we are not talking about a few euros. The amounts involved can be substantial enough to buy **entire houses, properties, and land**.
 
 Ransomware is one of those events that is often underestimated because organizations believe that **"it will never happen to us", "we are too small" or "we are not important enough to be of interest."**
-However, an attacker does not always choose the victim. Often, the attacker chooses the **opportunity**. An exposed system, a reused password, an unprotected access point, or an ineffective backup can turn even a **small company into a convenient target**.
+However, an attacker does not always choose the victim. Often, the attacker chooses the **opportunity**. An exposed system, a reused password, an unprotected access point or an ineffective backup can turn even a **small company into a convenient target**.
 
 Money has the same value regardless of whether it comes from a small company or a large organization. Refusing to pay can lead to further problems, particularly regarding **privacy**. Very often, ransomware operators do not simply demand payment: they may also threaten to **publish stolen data**, after having copied it remotely before encrypting the original systems.
 At worst, the consequences may become serious enough to **threaten the survival of the business itself**.
